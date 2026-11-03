@@ -1,0 +1,113 @@
+# ===== א1 – מהירות ממוצעת =====
+distance = 120  # km
+time = 1.5  # hours
+speed = distance / time
+print("Average speed:", speed, "km/h")
+
+
+# ===== א2 – צפיפות של מתכת =====
+mass = 270  # grams
+volume = 100  # cm^3
+density = ____
+print("Density:", density, "g/cm3")
+
+
+# ===== א3 – צלזיוס לפרנהייט =====
+celsius = 37
+fahrenheit = ____
+print(celsius, "C =", fahrenheit, "F")
+
+
+# ===== א4 – שטח מעגל =====
+r = 5
+area = ____
+print("Area:", round(area, 2))
+
+
+# ===== ב1 – מצב צבירה של מים =====
+temp = 25  # Celsius
+if temp <= 0:
+    print(temp, "ice")
+elif temp < 100:
+    print(temp, "liquid")
+else:
+    print(temp, "steam")
+
+
+# ===== ב2 – חומצה או בסיס =====
+ph = 3
+if ____:
+    print(ph, "acid")
+elif ____:
+    print(ph, "neutral")
+else:
+    print(ph, "base")
+
+
+# ===== ב3 – זוגי או אי-זוגי =====
+n = 17
+if n % 2 == ____:
+    print(n, "even")
+else:
+    print(n, "odd")
+
+
+# ===== ב4 – האם הנתיך יישרף =====
+voltage = 12  # volts
+resistance = 4  # ohms
+current = ____
+print("Current:", current, "A")
+if ____:
+    print("fuse blown")
+else:
+    print("ok")
+
+
+# ===== ג1 – ספירה לאחור לשיגור =====
+for i in range(10, 0, -1):
+    print(i)
+print("Liftoff!")
+
+
+# ===== ג2 – נפילה חופשית =====
+g = 9.8  # m/s^2
+for t in range(____):
+    h = ____
+    print("t =", t, "s fallen:", round(h, 1), "m")
+
+
+# ===== ג3 – גידול חיידקים =====
+bacteria = 1
+minutes = 0
+for i in range(9):
+    bacteria = ____
+    minutes = ____
+print(minutes, bacteria)
+
+
+# ===== ג4 – גאוס הקטן =====
+total = 0
+for n in range(____):
+    total = ____
+print(total)
+
+
+# ===== אתגר מסכם – טבלת המרה ומצבי צבירה =====
+for c in range(-20, 121, 20):
+    f = ____
+    if ____:
+        state = "ice"
+    elif ____:
+        state = "liquid"
+    else:
+        state = "steam"
+    print(c, "C =", f, "F", state)
+
+
+# ===== בונוס – זמן מחצית חיים =====
+mass = 100  # grams
+years = 0
+while mass > 1:
+    mass = ____
+    years = ____
+print(years, mass)
